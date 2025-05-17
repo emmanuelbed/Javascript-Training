@@ -1,3 +1,6 @@
-let isRaining = false
-isRaining ? console.log(`it is raining`): console.log(`it is not raining`)
+let loggedIn = true;
+let hasMembership = true;
 
+let checker = loggedIn && hasMembership ? `Show the video` : `Don't show the video`
+
+console.log(checker)
