@@ -1,6 +1,6 @@
-let loggedIn = true;
-let hasMembership = true;
+let counter = 1
 
-let checker = loggedIn && hasMembership ? `Show the video` : `Don't show the video`
-
-console.log(checker)
+while (counter <= 20){
+    console.log(counter);
+    counter++;
+}
