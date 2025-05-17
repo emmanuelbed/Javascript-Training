@@ -1,11 +1,3 @@
-// && and || Logigal operators
-let age = 19
-let hasId = true
+let isRaining = false
+isRaining ? console.log(`it is raining`): console.log(`it is not raining`)
 
-if(age >= 18 && hasId === true){
-    console.log("You may enter the Club")
-}
-
-if(age >= 18 || hasId === true){
-    console.log("You may enter the Club")
-}
