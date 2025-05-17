@@ -1,3 +1,8 @@
-let comparison = '4' !== 4;
+let hasMembership = false
 
-console.log(comparison)
+if(hasMembership === true){
+    console.log("Show the video")
+}
+else{
+    console.log("Please log in")
+}
