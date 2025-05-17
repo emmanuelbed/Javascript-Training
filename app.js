@@ -1,3 +1,3 @@
-let string = "ASAP Front End"
+let comparison = '4' !== 4;
 
-console.log(string[string.length -1])
+console.log(comparison)
