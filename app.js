@@ -1,12 +1,11 @@
-let age = 14
+// && and || Logigal operators
+let age = 19
+let hasId = true
 
-if (age > 18){
-    console.log("You are "  + age +" years old, you may enter the club")
+if(age >= 18 && hasId === true){
+    console.log("You may enter the Club")
 }
-else if (age === 18){
-    console.log("You just turned 18, Welcome")
-}
-else{
-    // Use the backticks
-    console.log(`You are ${age} years old, get outta here`)
+
+if(age >= 18 || hasId === true){
+    console.log("You may enter the Club")
 }
