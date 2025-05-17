@@ -1,12 +1,12 @@
-let hasMembership = false
-let signedIn = true
+let age = 14
 
-if(hasMembership === true){
-    console.log("Show the video")
+if (age > 18){
+    console.log("You are "  + age +" years old, you may enter the club")
 }
-else if(signedIn === true){
-    console.log("Please upgrade your account")
+else if (age === 18){
+    console.log("You just turned 18, Welcome")
 }
 else{
-    console.log("Please log in")
+    // Use the backticks
+    console.log(`You are ${age} years old, get outta here`)
 }
