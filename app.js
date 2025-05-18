@@ -1,17 +1,13 @@
-/** Create a function that converts $USD into $AUD
- * 
- * $AUD to $USD formular
- * AUD = USD x 1.5
- * 
- * 
- * @example
- * convertUSDTo AUD(1000)
- * 
- * 
- */
+// Regular Function
 
-function convertUSDToAUD(usd){
+// function convertUSDToAUD(usd){
+//     return usd * 1.5
+// }
+
+// console.log(convertUSDToAUD(1000))
+
+// Arrow function
+const convertUSDToAUD = (usd) => {
     return usd * 1.5
 }
-
-console.log(convertUSDToAUD(1000))
+console.log(convertUSDToAUD(500))
