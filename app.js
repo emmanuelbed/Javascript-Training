@@ -1,24 +1,21 @@
-/** Currency Converter
- * 
- * Turn the elements in an array from USD to AUD
- * without using .map method
- * 
- * USD to AUD formular:
- * AUD = USD x 1.5
- * 
- * @example
- * [10, 20, 30, 40] -> [15, 30, 45, 60]
- * 
- * 
- */
+let userEmail = "example@gmail.com"
+let usedPassword = "test123"
+let userName = "John Doe"
 
-let usd = [10, 20, 30, 40]
 
-let aud = []
-
-for (i = 0; i < usd.length; i++){
-    aud.push(usd[i] * 1.5 );
+let user = {
+    email: "example.gmail.com",
+    name: "John Doe",
+    password: "test1234",
+    discord: "example",
+    subscription: "VIP+",
+    lessonsCompleted: [
+        
+    ]
 }
 
-console.log(aud);
+    console.log(user.name);
 
+    console.log(user.name[0]);
+    
+    
