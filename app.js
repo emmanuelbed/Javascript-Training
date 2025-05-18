@@ -8,10 +8,9 @@
 
 
 
-let array = [18, 20, 14, 15, 21] 
+let people = [18, 20, 14, 15, 21] 
 
-let filterredArray = array.filter((element) => {
-    return element >= 18
-})
+for(i = 0; i< people.length; i++){
+    console.log(people[i])
 
-console.log(filterredArray)
+}
