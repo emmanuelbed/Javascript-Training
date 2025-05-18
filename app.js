@@ -1,13 +1,5 @@
-// Regular Function
+let item  = "Apples"
+let item2 = "Oranges"
+let item3 = "Eggs"
 
-// function convertUSDToAUD(usd){
-//     return usd * 1.5
-// }
-
-// console.log(convertUSDToAUD(1000))
-
-// Arrow function
-const convertUSDToAUD = (usd) => {
-    return usd * 1.5
-}
-console.log(convertUSDToAUD(500))
+let array = ["Apples", "Bananas", "Oranges", "Eggs", "Milk"]
