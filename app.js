@@ -10,7 +10,14 @@
 
 let people = [18, 20, 14, 15, 21] 
 
-for(i = 0; i< people.length; i++){
-    console.log(people[i])
+let allowedPeople = []
 
+for(i = 0; i< people.length; i++){
+    if (people[i] >= 18){
+        allowedPeople.push(people[i])
+    }
 }
+
+console.log(allowedPeople);
+
+
