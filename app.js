@@ -1,9 +1,22 @@
-let array = [1, 2, 3, 4, 5]
-// Changes the original values of the array based on what is returned
-// NB it is a non-mutationg methd.
-let newArray = array.map((element) => {
-    console.log(element);
-    return null
+/** Currency Converter
+ * 
+ * Turn the elements in an array from USD to AUD
+ * 
+ * USD to AUD formular:
+ * AUD = USD x 1.5
+ * 
+ * @example
+ * [10, 20, 30, 40] -> [15, 30, 45, 60]
+ * 
+ * 
+ */
+
+let usd = [10, 20, 30, 40]
+
+let aud = usd.map((element) => {
+    return element * 1.5
 })
 
-console.log(newArray);
+
+console.log(aud);
+
