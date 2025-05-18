@@ -1,6 +1,3 @@
-let counter = 1
-
-while (counter <= 20){
-    console.log(counter);
-    counter++;
+for (let i = 0; i < 10; i++){
+    console.log(i)
 }
