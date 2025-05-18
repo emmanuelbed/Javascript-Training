@@ -47,21 +47,19 @@
      */
     let users = []
 
-    let userFunc = ( email, password, name, discord, subscription, lessonsCompleted)   => {
-        user = {
-            email: email,
-            name: name,
-            password: password,
-            discord: discord,
-            subscription: subscription,
-            lessonsCompleted: lessonsCompleted
-        }
-
+    let userFunc = (user) =>{
         users.push(user)
     }
 
-    userFunc("ahah@gmail.com", "test.123", "Emmanuel Bedzo", "hhsysyhd", "VIP+", [1, 2, 3]);
+    userFunc({
+        email:"ahah@gmail.com", 
+        password: "test.123", 
+        name: "Emmanuel Bedzo", 
+        discord: "hhsysyhd", 
+        subscription: "VIP+", 
+        lessonsCompleted: [1, 2, 3]
+    });
      
     console.log(users)
 
-     userFunc("appph@gmail.com", "test.459", "Delsi  Bedzo", "jsyshdh", "VIP", [5, 9, 7]);
+    
