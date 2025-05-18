@@ -1,19 +1,10 @@
-/**  Print all the characters from the sring
- * "ASAP Frontend"
- * 
- * 
- * @example
- * "A"
- * "S"
- * "A"
- * 
- * 
- * 
-*/
 
-let word = "ASAP Frontend"
+// Function declaraton
+function greetUser(name, time){
+    console.log(`Good ${time}, ${name}`)
+}
 
-
- for (let i = 0; i < word.length; i++){
-    console.log(`"${word[i]}"`)
- }
+// Call the function
+greetUser("Alex", "morning")
+greetUser("John", "afteroon")
+greetUser("Emmanuel", "evening")
