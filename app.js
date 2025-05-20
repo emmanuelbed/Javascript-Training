@@ -7,4 +7,6 @@ document.querySelector(`#heading`).style.backgroundColor = 'red'
 
 
  
- 
+ changeButtonToGreen = () => {
+    document.querySelector('button').style.backgroundColor = 'green';
+ }
