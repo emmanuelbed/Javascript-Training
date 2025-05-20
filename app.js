@@ -1,9 +1,10 @@
-// 1st Methhod
+// Change content HTML
+document.querySelector('#heading').innerHTML += " ASAP Frontend";
 
-console.log(document.querySelector('#heading'));
 
-// 2nd Method
+// Change CSS
+document.querySelector(`#heading`).style.backgroundColor = 'red'
 
-console.log(document.getElementById('heading'));
+
  
  
